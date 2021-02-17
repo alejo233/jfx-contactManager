@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="principalPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Manager">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addContact" text="Add Contact" />
+              <MenuItem mnemonicParsing="false" onAction="#listContact" text="List Contact " />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#importContact" text="Import contact" />
+                  <MenuItem mnemonicParsing="false" onAction="#exportContact" text="Export contact" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</VBox>
